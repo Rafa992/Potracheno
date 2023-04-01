@@ -1,0 +1,21 @@
+.menu__lin {
+    color: white;
+    transition: 500ms;
+}
+.menu__lin:hover {
+    color: #cb3b48 !important;
+}
+
+.btn {
+    background: white !important;
+    color: #cb3b48 !important;
+}
+.btn:hover {
+    background: #cb3b48 !important;
+    color: white !important;
+}
+
+.btn.active {
+    background: #cb3b48 !important;
+    color: white !important;
+}

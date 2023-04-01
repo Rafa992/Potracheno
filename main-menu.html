@@ -1,0 +1,770 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Потрачено - основное меню</title>
+    <link rel="stylesheet" href="css/app.min.css" />
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <div class="site-wrapper">
+      <header class="header">
+    <div class="header__container container">
+        <a href="#" class="header__logo logo">
+            <picture><source srcset="img/logo.webp" type="image/webp"><img src="img/logo.png" alt="Логотип сайта"></picture>
+        </a>
+        <div class="header__menu menu">
+            <nav class="menu__body js-menu-body">
+                <ul class="menu__list">
+                  <li><a class="menu__link" href="index.html">Главная</a></li>
+                  <li><a class="menu__link" href="main-menu.html">Меню</a></li>
+                    <li>
+                        <a class="menu__link menu__link--more" href="#">Ещё...</a>
+                        <ul class="menu__sublist">
+                          <li><a class="menu__link" href="photo-reports.html">Фотоотчеты</a></li>
+                          <li><a class="menu__link" href="about.html">Правила заведения</a></li>
+                        </ul>
+                    </li>
+                </ul>
+                <button class="menu__btn btn">Забронировать столик</button>
+            </nav>
+        </div>
+        <div class="header__actions actions-header">
+            <a href="#" class="actions-header__link">
+                <picture><source srcset="img/icons/icons.svg#phone" type="image/webp"><img src="img/icons/icons.svg#phone" class="actions-header__icon" alt="phone" aria-hidden="true"/></picture>
+            </a>
+            <button class="actions-header__btn btn">Забронировать</button>
+            <div class="actions-header__link actions-header__link--mobile">
+                <button class="icon-menu js-menu-button">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </button>
+            </div>
+        </div>
+    </div>
+</header>
+      <main class="site-main">
+        <div class="site-main__spacer"></div>
+        <section class="news-stocks">
+          <div class="news-stocks__wrapper">
+            <div class="news-stocks__container container">
+              <div class="news-stocks__top news-stocks__top--main-menu">
+                <h4 class="news-stocks__title">Новости и акции</h4>
+              </div>
+              <div class="news-stocks__slider">
+                <div class="stocks-slider swiper-container">
+                  <div class="swiper-wrapper">
+                    <div class="swiper-slide">
+                      <div class="stock-item stock-item--first">
+                        <div class="stock-item__title">
+                          Скидка <span>10%</span>
+                        </div>
+                        <div class="stock-item__text">всем студентам</div>
+                      </div>
+                    </div>
+                    <div class="swiper-slide">
+                      <div class="stock-item">
+                        <div class="stock-item__img">
+                          <picture><source srcset="img/stock.webp" type="image/webp"><img src="img/stock.png" alt="Акция" /></picture>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="swiper-slide">
+                      <div class="stock-item stock-item--third">
+                        <div class="stock-item__title stock-item__title--big">
+                          1 + 1 <br />
+                          =3
+                        </div>
+                        <div class="stock-item__text">
+                          Третий коктейль <span>в подарок</span>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="swiper-slide">
+                      <div class="stock-item">
+                        <div class="stock-item__img">
+                          <picture><source srcset="img/stock.webp" type="image/webp"><img src="img/stock.png" alt="Акция" /></picture>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="swiper-slide">
+                      <div class="stock-item stock-item--first">
+                        <div class="stock-item__title">
+                          Скидка <span>10%</span>
+                        </div>
+                        <div class="stock-item__text">всем студентам</div>
+                      </div>
+                    </div>
+                    <div class="swiper-slide">
+                      <div class="stock-item">
+                        <div class="stock-item__img">
+                          <picture><source srcset="img/stock.webp" type="image/webp"><img src="img/stock.png" alt="Акция" /></picture>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="swiper-slide">
+                      <div class="stock-item stock-item--third">
+                        <div class="stock-item__title stock-item__title--big">
+                          1 + 1 <br />
+                          =3
+                        </div>
+                        <div class="stock-item__text">
+                          Третий коктейль <span>в подарок</span>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="swiper-slide">
+                      <div class="stock-item">
+                        <div class="stock-item__img">
+                          <picture><source srcset="img/stock.webp" type="image/webp"><img src="img/stock.png" alt="Акция" /></picture>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="stocks-slider__pagination"></div>
+                  <div class="stocks-slider__arrows">
+                    <button class="stocks-slider__arrow stocks-slider__arrow--prev" type="button"></button>
+                    <button class="stocks-slider__arrow stocks-slider__arrow--next" type="button"></button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+        <section class="main-menu">
+          <div class="main-menu__container container">
+            <div class="main-menu__top">
+              <div class="main-menu__titles">
+                <a href="#" class="main-menu__title main-menu__title--active">Основное Меню</a>
+                <a href="#" class="main-menu__title">Барная карта</a>
+              </div>
+              <form action="" class="main-menu__form menu-form">
+                <div class="menu-form__top">
+                  <div class="menu-form__col menu-form__tags form-tags">
+                    <div class="form-tags__row form-tags__top">
+                      <span class="form-tags__tag form-tags__tag--active">Холодные закуски</span>
+                      <span class="form-tags__tag">Салаты</span>
+                      <span class="form-tags__tag">Горячие закуски</span>
+                      <span class="form-tags__tag">Салаты</span>
+                      <span class="form-tags__tag">Супы</span>
+                      <span class="form-tags__tag">Паста</span>
+                      <span class="form-tags__tag">Основные блюда</span>
+                      <span class="form-tags__tag">Пицца</span>
+                      <span class="form-tags__tag">Блюда на гриле</span>
+                      <span class="form-tags__tag">Морепродукты</span>
+                      <span class="form-tags__tag">Гарниры</span>
+                      <span class="form-tags__tag">Соусы</span>
+                      <span class="form-tags__tag">Десерты</span>
+                    </div>
+                  </div>
+                  <div class="menu-form__col menu-form__group">
+                    <label>
+                      <input type="text" class="menu-form__input" placeholder="Поиск...">
+                      <button class="menu-form__btn btn"></button>
+                    </label>
+                  </div>
+                  <div class="menu-form__filter">
+                    <select name="filter" id="filter">
+                      <option>Холодные закуски</option>
+                      <option>Салаты</option>
+                      <option>Горячие закуски</option>
+                      <option>Салаты</option>
+                      <option>Супы</option>
+                      <option>Паста</option>
+                      <option>Основные блюда</option>
+                      <option>Пицца</option>
+                      <option>Блюда на гриле</option>
+                      <option>Морепродукты</option>
+                      <option>Гарниры</option>
+                      <option>Соусы</option>
+                      <option>Десерты</option>
+                    </select>
+                  </div>
+                  <div class="tags-results">
+                    <span class="tags-results__item tags-results__item--vegan">Вегетарианские блюда</span>
+                    <span class="tags-results__item">Блюда до 400</span>
+                    <span class="tags-results__item">Выбор шефа</span>
+                  </div>
+                </div>
+              </form>
+            </div>
+            <div class="main-menu__items menu-items">
+              <div class="menu-items__item">
+                <article class="menu-meal">
+                  <div class="menu-meal__top">
+                    <div class="menu-meal__slider swiper-container">
+                      <div class="swiper-wrapper">
+                        <div class="swiper-slide">
+                          <a href="#" class="menu-meal__img _ibg">
+                            <picture><source srcset="img/meals/1.webp" type="image/webp"><img src="img/meals/1.jpg" alt="first meal"></picture>
+                          </a>
+                        </div>
+                        <div class="swiper-slide">
+                          <a href="#" class="menu-meal__img _ibg">
+                            <picture><source srcset="img/meals/2.webp" type="image/webp"><img src="img/meals/2.jpg" alt="first meal"></picture>
+                          </a>
+                        </div>
+                        <div class="swiper-slide">
+                          <a href="#" class="menu-meal__img _ibg">
+                            <picture><source srcset="img/meals/3.webp" type="image/webp"><img src="img/meals/3.jpg" alt="first meal"></picture>
+                          </a>
+                        </div>
+                      </div>
+                      <div class="menu-meal__pagination swiper-pagination"></div>
+                    </div>
+                  </div>
+                  <div class="menu-meal__info meal-info">
+                    <h4 class="meal-info__title">Салат пармиджано</h4>
+                    <div class="meal-info__calories">
+                      <span>Ккал:245</span>
+                      <span>БЖУ: 19,8/12,5/0</span>
+                    </div>
+                    <div class="meal-info__bottom">
+                      <div class="meal-info__price"><span>359₽</span>/100г.</div>
+                      <button class="meal-info__btn btn">подробнее</button>
+                    </div>
+                  </div>
+                </article>
+              </div>
+              <div class="menu-items__item">
+                <div class="menu-items__sticker meal-sticker">
+                  <div class="meal-sticker__img">
+                    <picture><source srcset="img/meals/popular.webp" type="image/webp"><img src="img/meals/popular.png" alt=""></picture>
+                  </div>
+                  <div class="meal-sticker__text">популярное</div>
+                </div>
+                <article class="menu-meal">
+                  <div class="menu-meal__top">
+                    <div class="menu-meal__slider swiper-container">
+                      <div class="swiper-wrapper">
+                        <div class="swiper-slide">
+                          <a href="#" class="menu-meal__img _ibg">
+                            <picture><source srcset="img/meals/2.webp" type="image/webp"><img src="img/meals/2.jpg" alt="first meal"></picture>
+                          </a>
+                        </div>
+                        <div class="swiper-slide">
+                          <a href="#" class="menu-meal__img _ibg">
+                            <picture><source srcset="img/meals/1.webp" type="image/webp"><img src="img/meals/1.jpg" alt="first meal"></picture>
+                          </a>
+                        </div>
+                        <div class="swiper-slide">
+                          <a href="#" class="menu-meal__img _ibg">
+                            <picture><source srcset="img/meals/3.webp" type="image/webp"><img src="img/meals/3.jpg" alt="first meal"></picture>
+                          </a>
+                        </div>
+                      </div>
+                      <div class="menu-meal__pagination swiper-pagination"></div>
+                    </div>
+                  </div>
+                  <div class="menu-meal__info meal-info">
+                    <h4 class="meal-info__title">Салат с тигровыми креветками</h4>
+                    <div class="meal-info__calories">
+                      <span>Ккал:245</span>
+                      <span>БЖУ: 19,8/12,5/0</span>
+                    </div>
+                    <div class="meal-info__bottom">
+                      <div class="meal-info__price"><span>359₽</span>/100г.</div>
+                      <button class="meal-info__btn btn">подробнее</button>
+                    </div>
+                  </div>
+                </article>
+              </div>
+              <div class="menu-items__item menu-items__item--hidden-mobile">
+                <div class="menu-items__sticker meal-sticker meal-sticker--chief">
+                  <div class="meal-sticker__img">
+                    <picture><source srcset="img/hero_decor2.webp" type="image/webp"><img src="img/hero_decor2.png" alt=""></picture>
+                  </div>
+                  <div class="meal-sticker__text">Выбор шефа</div>
+                </div>
+                <article class="menu-meal">
+                  <div class="menu-meal__top">
+                    <div class="menu-meal__slider swiper-container">
+                      <div class="swiper-wrapper">
+                        <div class="swiper-slide">
+                          <a href="#" class="menu-meal__img _ibg">
+                            <picture><source srcset="img/meals/2.webp" type="image/webp"><img src="img/meals/2.jpg" alt="first meal"></picture>
+                          </a>
+                        </div>
+                        <div class="swiper-slide">
+                          <a href="#" class="menu-meal__img _ibg">
+                            <picture><source srcset="img/meals/1.webp" type="image/webp"><img src="img/meals/1.jpg" alt="first meal"></picture>
+                          </a>
+                        </div>
+                        <div class="swiper-slide">
+                          <a href="#" class="menu-meal__img _ibg">
+                            <picture><source srcset="img/meals/3.webp" type="image/webp"><img src="img/meals/3.jpg" alt="first meal"></picture>
+                          </a>
+                        </div>
+                      </div>
+                      <div class="menu-meal__pagination swiper-pagination"></div>
+                    </div>
+                  </div>
+                  <div class="menu-meal__info meal-info">
+                    <h4 class="meal-info__title">Салат с тигровыми креветками</h4>
+                    <div class="meal-info__calories">
+                      <span>Ккал:245</span>
+                      <span>БЖУ: 19,8/12,5/0</span>
+                    </div>
+                    <div class="meal-info__bottom">
+                      <div class="meal-info__price"><span>359₽</span>/100г.</div>
+                      <button class="meal-info__btn btn">подробнее</button>
+                    </div>
+                  </div>
+                </article>
+              </div>
+              <div class="menu-items__item menu-items__item--full">
+                <div class="menu-items__sticker meal-sticker meal-sticker--chief">
+                  <div class="meal-sticker__img">
+                    <picture><source srcset="img/hero_decor2.webp" type="image/webp"><img src="img/hero_decor2.png" alt=""></picture>
+                  </div>
+                  <div class="meal-sticker__text">Выбор шефа</div>
+                </div>
+                <a href="#" class="menu-items__video-link video-link">
+                  <span class="video-link__circle"></span>
+                  <span class="video-link__text">
+                    <span>ВИДЕО</span>
+                    КАК ЕСТЬ
+                    <span>БЛЮДО?</span>
+                  </span>
+                </a>
+                <article class="menu-meal">
+                  <div class="menu-meal__left">
+                    <div class="menu-meal__top">
+                      <div class="menu-meal__slider swiper-container">
+                        <div class="swiper-wrapper">
+                          <div class="swiper-slide">
+                            <a href="#" class="menu-meal__img _ibg">
+                              <picture><source srcset="img/meals/2.webp" type="image/webp"><img src="img/meals/2.jpg" alt="first meal"></picture>
+                            </a>
+                          </div>
+                          <div class="swiper-slide">
+                            <a href="#" class="menu-meal__img _ibg">
+                              <picture><source srcset="img/meals/1.webp" type="image/webp"><img src="img/meals/1.jpg" alt="first meal"></picture>
+                            </a>
+                          </div>
+                          <div class="swiper-slide">
+                            <a href="#" class="menu-meal__img _ibg">
+                              <picture><source srcset="img/meals/3.webp" type="image/webp"><img src="img/meals/3.jpg" alt="first meal"></picture>
+                            </a>
+                          </div>
+                        </div>
+                        <div class="menu-meal__pagination swiper-pagination"></div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="menu-meal__right">
+                    <button class="menu-meal__close btn" type="button"></button>
+                    <div class="menu-meal__info meal-info">
+                      <h4 class="meal-info__title">Салат с тигровыми креветками</h4>
+                      <div class="meal-info__calories">
+                        <span>Ккал:245</span>
+                        <span>БЖУ: 19,8/12,5/0</span>
+                      </div>
+                      <div class="meal-info__text">
+                        <p>Идейные соображения высшего порядка, а также начало повседневной работы по формированию позиции обеспечивает широкому кругу (специалистов) участие в формировании систем массового участия. Идейные соображения высшего порядка, а также дальнейшее развитие различных форм деятельности представляет собой интересный эксперимент проверки форм развития.</p>
+                      </div>
+                      <div class="meal-info__bottom">
+                        <div class="meal-info__price"><span>359₽</span>/100г.</div>
+                        <button class="meal-info__btn btn">подробнее</button>
+                      </div>
+                      <div class="meal-info__tags meal-tags">
+                        <span class="meal-tags__tag meal-tags__tag--vegan">Вегетерианские блюда</span>
+                        <span class="meal-tags__tag">Выбор шефа</span>
+                        <span class="meal-tags__tag">Популярное</span>
+                        <span class="meal-tags__tag">Блюда до 400₽</span>
+                      </div>
+                    </div>
+                  </div>
+                </article>
+              </div>
+              <div class="menu-items__item">
+                <article class="menu-meal">
+                  <div class="menu-meal__top">
+                    <div class="menu-meal__slider swiper-container">
+                      <div class="swiper-wrapper">
+                        <div class="swiper-slide">
+                          <a href="#" class="menu-meal__img _ibg">
+                            <picture><source srcset="img/meals/1.webp" type="image/webp"><img src="img/meals/1.jpg" alt="first meal"></picture>
+                          </a>
+                        </div>
+                        <div class="swiper-slide">
+                          <a href="#" class="menu-meal__img _ibg">
+                            <picture><source srcset="img/meals/2.webp" type="image/webp"><img src="img/meals/2.jpg" alt="first meal"></picture>
+                          </a>
+                        </div>
+                        <div class="swiper-slide">
+                          <a href="#" class="menu-meal__img _ibg">
+                            <picture><source srcset="img/meals/3.webp" type="image/webp"><img src="img/meals/3.jpg" alt="first meal"></picture>
+                          </a>
+                        </div>
+                      </div>
+                      <div class="menu-meal__pagination swiper-pagination"></div>
+                    </div>
+                  </div>
+                  <div class="menu-meal__info meal-info">
+                    <h4 class="meal-info__title">Салат пармиджано</h4>
+                    <div class="meal-info__calories">
+                      <span>Ккал:245</span>
+                      <span>БЖУ: 19,8/12,5/0</span>
+                    </div>
+                    <div class="meal-info__bottom">
+                      <div class="meal-info__price"><span>359₽</span>/100г.</div>
+                      <button class="meal-info__btn btn">подробнее</button>
+                    </div>
+                  </div>
+                </article>
+              </div>
+              <div class="menu-items__item">
+                <article class="menu-meal">
+                  <div class="menu-meal__top">
+                    <div class="menu-meal__slider swiper-container">
+                      <div class="swiper-wrapper">
+                        <div class="swiper-slide">
+                          <a href="#" class="menu-meal__img _ibg">
+                            <picture><source srcset="img/meals/2.webp" type="image/webp"><img src="img/meals/2.jpg" alt="first meal"></picture>
+                          </a>
+                        </div>
+                        <div class="swiper-slide">
+                          <a href="#" class="menu-meal__img _ibg">
+                            <picture><source srcset="img/meals/1.webp" type="image/webp"><img src="img/meals/1.jpg" alt="first meal"></picture>
+                          </a>
+                        </div>
+                        <div class="swiper-slide">
+                          <a href="#" class="menu-meal__img _ibg">
+                            <picture><source srcset="img/meals/3.webp" type="image/webp"><img src="img/meals/3.jpg" alt="first meal"></picture>
+                          </a>
+                        </div>
+                      </div>
+                      <div class="menu-meal__pagination swiper-pagination"></div>
+                    </div>
+                  </div>
+                  <div class="menu-meal__info meal-info">
+                    <h4 class="meal-info__title">Салат с тигровыми креветками</h4>
+                    <div class="meal-info__calories">
+                      <span>Ккал:245</span>
+                      <span>БЖУ: 19,8/12,5/0</span>
+                    </div>
+                    <div class="meal-info__bottom">
+                      <div class="meal-info__price"><span>359₽</span>/100г.</div>
+                      <button class="meal-info__btn btn">подробнее</button>
+                    </div>
+                  </div>
+                </article>
+              </div>
+              <div class="menu-items__item">
+                <article class="menu-meal">
+                  <div class="menu-meal__top">
+                    <div class="menu-meal__slider swiper-container">
+                      <div class="swiper-wrapper">
+                        <div class="swiper-slide">
+                          <a href="#" class="menu-meal__img _ibg">
+                            <picture><source srcset="img/meals/2.webp" type="image/webp"><img src="img/meals/2.jpg" alt="first meal"></picture>
+                          </a>
+                        </div>
+                        <div class="swiper-slide">
+                          <a href="#" class="menu-meal__img _ibg">
+                            <picture><source srcset="img/meals/1.webp" type="image/webp"><img src="img/meals/1.jpg" alt="first meal"></picture>
+                          </a>
+                        </div>
+                        <div class="swiper-slide">
+                          <a href="#" class="menu-meal__img _ibg">
+                            <picture><source srcset="img/meals/3.webp" type="image/webp"><img src="img/meals/3.jpg" alt="first meal"></picture>
+                          </a>
+                        </div>
+                      </div>
+                      <div class="menu-meal__pagination swiper-pagination"></div>
+                    </div>
+                  </div>
+                  <div class="menu-meal__info meal-info">
+                    <h4 class="meal-info__title">Салат с тигровыми креветками</h4>
+                    <div class="meal-info__calories">
+                      <span>Ккал:245</span>
+                      <span>БЖУ: 19,8/12,5/0</span>
+                    </div>
+                    <div class="meal-info__bottom">
+                      <div class="meal-info__price"><span>359₽</span>/100г.</div>
+                      <button class="meal-info__btn btn">подробнее</button>
+                    </div>
+                  </div>
+                </article>
+              </div>
+              <div class="menu-items__item">
+                <article class="menu-meal">
+                  <div class="menu-meal__top">
+                    <div class="menu-meal__slider swiper-container">
+                      <div class="swiper-wrapper">
+                        <div class="swiper-slide">
+                          <a href="#" class="menu-meal__img _ibg">
+                            <picture><source srcset="img/meals/1.webp" type="image/webp"><img src="img/meals/1.jpg" alt="first meal"></picture>
+                          </a>
+                        </div>
+                        <div class="swiper-slide">
+                          <a href="#" class="menu-meal__img _ibg">
+                            <picture><source srcset="img/meals/2.webp" type="image/webp"><img src="img/meals/2.jpg" alt="first meal"></picture>
+                          </a>
+                        </div>
+                        <div class="swiper-slide">
+                          <a href="#" class="menu-meal__img _ibg">
+                            <picture><source srcset="img/meals/3.webp" type="image/webp"><img src="img/meals/3.jpg" alt="first meal"></picture>
+                          </a>
+                        </div>
+                      </div>
+                      <div class="menu-meal__pagination swiper-pagination"></div>
+                    </div>
+                  </div>
+                  <div class="menu-meal__info meal-info">
+                    <h4 class="meal-info__title">Салат пармиджано</h4>
+                    <div class="meal-info__calories">
+                      <span>Ккал:245</span>
+                      <span>БЖУ: 19,8/12,5/0</span>
+                    </div>
+                    <div class="meal-info__bottom">
+                      <div class="meal-info__price"><span>359₽</span>/100г.</div>
+                      <button class="meal-info__btn btn">подробнее</button>
+                    </div>
+                  </div>
+                </article>
+              </div>
+              <div class="menu-items__item">
+                <article class="menu-meal">
+                  <div class="menu-meal__top">
+                    <div class="menu-meal__slider swiper-container">
+                      <div class="swiper-wrapper">
+                        <div class="swiper-slide">
+                          <a href="#" class="menu-meal__img _ibg">
+                            <picture><source srcset="img/meals/2.webp" type="image/webp"><img src="img/meals/2.jpg" alt="first meal"></picture>
+                          </a>
+                        </div>
+                        <div class="swiper-slide">
+                          <a href="#" class="menu-meal__img _ibg">
+                            <picture><source srcset="img/meals/1.webp" type="image/webp"><img src="img/meals/1.jpg" alt="first meal"></picture>
+                          </a>
+                        </div>
+                        <div class="swiper-slide">
+                          <a href="#" class="menu-meal__img _ibg">
+                            <picture><source srcset="img/meals/3.webp" type="image/webp"><img src="img/meals/3.jpg" alt="first meal"></picture>
+                          </a>
+                        </div>
+                      </div>
+                      <div class="menu-meal__pagination swiper-pagination"></div>
+                    </div>
+                  </div>
+                  <div class="menu-meal__info meal-info">
+                    <h4 class="meal-info__title">Салат с тигровыми креветками</h4>
+                    <div class="meal-info__calories">
+                      <span>Ккал:245</span>
+                      <span>БЖУ: 19,8/12,5/0</span>
+                    </div>
+                    <div class="meal-info__bottom">
+                      <div class="meal-info__price"><span>359₽</span>/100г.</div>
+                      <button class="meal-info__btn btn">подробнее</button>
+                    </div>
+                  </div>
+                </article>
+              </div>
+              <div class="menu-items__item">
+                <article class="menu-meal">
+                  <div class="menu-meal__top">
+                    <div class="menu-meal__slider swiper-container">
+                      <div class="swiper-wrapper">
+                        <div class="swiper-slide">
+                          <a href="#" class="menu-meal__img _ibg">
+                            <picture><source srcset="img/meals/2.webp" type="image/webp"><img src="img/meals/2.jpg" alt="first meal"></picture>
+                          </a>
+                        </div>
+                        <div class="swiper-slide">
+                          <a href="#" class="menu-meal__img _ibg">
+                            <picture><source srcset="img/meals/1.webp" type="image/webp"><img src="img/meals/1.jpg" alt="first meal"></picture>
+                          </a>
+                        </div>
+                        <div class="swiper-slide">
+                          <a href="#" class="menu-meal__img _ibg">
+                            <picture><source srcset="img/meals/3.webp" type="image/webp"><img src="img/meals/3.jpg" alt="first meal"></picture>
+                          </a>
+                        </div>
+                      </div>
+                      <div class="menu-meal__pagination swiper-pagination"></div>
+                    </div>
+                  </div>
+                  <div class="menu-meal__info meal-info">
+                    <h4 class="meal-info__title">Салат с тигровыми креветками</h4>
+                    <div class="meal-info__calories">
+                      <span>Ккал:245</span>
+                      <span>БЖУ: 19,8/12,5/0</span>
+                    </div>
+                    <div class="meal-info__bottom">
+                      <div class="meal-info__price"><span>359₽</span>/100г.</div>
+                      <button class="meal-info__btn btn">подробнее</button>
+                    </div>
+                  </div>
+                </article>
+              </div>
+              <div class="menu-items__item">
+                <article class="menu-meal">
+                  <div class="menu-meal__top">
+                    <div class="menu-meal__slider swiper-container">
+                      <div class="swiper-wrapper">
+                        <div class="swiper-slide">
+                          <a href="#" class="menu-meal__img _ibg">
+                            <picture><source srcset="img/meals/1.webp" type="image/webp"><img src="img/meals/1.jpg" alt="first meal"></picture>
+                          </a>
+                        </div>
+                        <div class="swiper-slide">
+                          <a href="#" class="menu-meal__img _ibg">
+                            <picture><source srcset="img/meals/2.webp" type="image/webp"><img src="img/meals/2.jpg" alt="first meal"></picture>
+                          </a>
+                        </div>
+                        <div class="swiper-slide">
+                          <a href="#" class="menu-meal__img _ibg">
+                            <picture><source srcset="img/meals/3.webp" type="image/webp"><img src="img/meals/3.jpg" alt="first meal"></picture>
+                          </a>
+                        </div>
+                      </div>
+                      <div class="menu-meal__pagination swiper-pagination"></div>
+                    </div>
+                  </div>
+                  <div class="menu-meal__info meal-info">
+                    <h4 class="meal-info__title">Салат пармиджано</h4>
+                    <div class="meal-info__calories">
+                      <span>Ккал:245</span>
+                      <span>БЖУ: 19,8/12,5/0</span>
+                    </div>
+                    <div class="meal-info__bottom">
+                      <div class="meal-info__price"><span>359₽</span>/100г.</div>
+                      <button class="meal-info__btn btn">подробнее</button>
+                    </div>
+                  </div>
+                </article>
+              </div>
+              <div class="menu-items__item">
+                <article class="menu-meal">
+                  <div class="menu-meal__top">
+                    <div class="menu-meal__slider swiper-container">
+                      <div class="swiper-wrapper">
+                        <div class="swiper-slide">
+                          <a href="#" class="menu-meal__img _ibg">
+                            <picture><source srcset="img/meals/2.webp" type="image/webp"><img src="img/meals/2.jpg" alt="first meal"></picture>
+                          </a>
+                        </div>
+                        <div class="swiper-slide">
+                          <a href="#" class="menu-meal__img _ibg">
+                            <picture><source srcset="img/meals/1.webp" type="image/webp"><img src="img/meals/1.jpg" alt="first meal"></picture>
+                          </a>
+                        </div>
+                        <div class="swiper-slide">
+                          <a href="#" class="menu-meal__img _ibg">
+                            <picture><source srcset="img/meals/3.webp" type="image/webp"><img src="img/meals/3.jpg" alt="first meal"></picture>
+                          </a>
+                        </div>
+                      </div>
+                      <div class="menu-meal__pagination swiper-pagination"></div>
+                    </div>
+                  </div>
+                  <div class="menu-meal__info meal-info">
+                    <h4 class="meal-info__title">Салат с тигровыми креветками</h4>
+                    <div class="meal-info__calories">
+                      <span>Ккал:245</span>
+                      <span>БЖУ: 19,8/12,5/0</span>
+                    </div>
+                    <div class="meal-info__bottom">
+                      <div class="meal-info__price"><span>359₽</span>/100г.</div>
+                      <button class="meal-info__btn btn">подробнее</button>
+                    </div>
+                  </div>
+                </article>
+              </div>
+              <div class="menu-items__item">
+                <article class="menu-meal">
+                  <div class="menu-meal__top">
+                    <div class="menu-meal__slider swiper-container">
+                      <div class="swiper-wrapper">
+                        <div class="swiper-slide">
+                          <a href="#" class="menu-meal__img _ibg">
+                            <picture><source srcset="img/meals/2.webp" type="image/webp"><img src="img/meals/2.jpg" alt="first meal"></picture>
+                          </a>
+                        </div>
+                        <div class="swiper-slide">
+                          <a href="#" class="menu-meal__img _ibg">
+                            <picture><source srcset="img/meals/1.webp" type="image/webp"><img src="img/meals/1.jpg" alt="first meal"></picture>
+                          </a>
+                        </div>
+                        <div class="swiper-slide">
+                          <a href="#" class="menu-meal__img _ibg">
+                            <picture><source srcset="img/meals/3.webp" type="image/webp"><img src="img/meals/3.jpg" alt="first meal"></picture>
+                          </a>
+                        </div>
+                      </div>
+                      <div class="menu-meal__pagination swiper-pagination"></div>
+                    </div>
+                  </div>
+                  <div class="menu-meal__info meal-info">
+                    <h4 class="meal-info__title">Салат с тигровыми креветками</h4>
+                    <div class="meal-info__calories">
+                      <span>Ккал:245</span>
+                      <span>БЖУ: 19,8/12,5/0</span>
+                    </div>
+                    <div class="meal-info__bottom">
+                      <div class="meal-info__price"><span>359₽</span>/100г.</div>
+                      <button class="meal-info__btn btn">подробнее</button>
+                    </div>
+                  </div>
+                </article>
+              </div>
+              <button class="menu-items__btn btn">показать ещё</button>
+            </div>
+          </div>
+        </section>
+      </main>
+      <footer class="footer">
+  <div class="footer__wrapper">
+    <div class="footer__container container">
+      <div class="footer__top">
+        <a href="#" class="footer-logo">
+          <picture><source srcset="img/logo.webp" type="image/webp"><img src="img/logo.png" alt="logo"></picture>
+        </a>
+        <div class="footer-nav">
+          <a href="#" class="footer-nav__link">Главная</a>
+          <a href="#" class="footer-nav__link">Акции</a>
+          <a href="#" class="footer-nav__link">Команда</a>
+          <a href="#" class="footer-nav__link">Меню</a>
+          <a href="#" class="footer-nav__link">Интерьер</a>
+          <a href="#" class="footer-nav__link">Контакты</a>
+        </div>
+        <div class="footer-right">
+          <a href="tel:88009999999" class="footer-right__link">8 (800) 999-99-99</a>
+          <span class="footer-right__text">Бронь столов с 09:00 до 19:00</span>
+          <div class="footer__right">
+            <div class="contacts-socials contacts-socials--footer">
+              <div class="contacts-socials__item">
+                <a href="#" class="contacts-socials__link contacts-socials__link--instagram"></a>
+              </div>
+              <div class="contacts-socials__item">
+                <a href="#" class="contacts-socials__link contacts-socials__link--tg"></a>
+              </div>
+              <div class="contacts-socials__item">
+                <a href="#" class="contacts-socials__link contacts-socials__link--whatsapp"></a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="footer__bottom footer-bottom">
+        <div class="footer-bottom__left">
+          <a href="#" class="footer-bottom__link">Политика конфидециальности</a>
+          <a href="#" class="footer-bottom__link">Договор оферты</a>
+        </div>
+        <div class="footer-bottom__center">
+          <span class="footer-bottom__text">Информация на сайте не является публичной офертой</span>
+        </div>
+      </div>
+    </div>
+  </div>
+</footer>
+    </div>
+    <script src="js/app.min.js"></script>
+    <script src="js/custom.js"></script>
+  </body>
+</html>
